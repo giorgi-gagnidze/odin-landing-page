@@ -92,7 +92,7 @@ body {
 /***************** Header Second *********************/
 
 .header__second {
-    
+    margin-bottom: 120px;
 }
 
 .header__second-container {
@@ -120,6 +120,7 @@ body {
     font-size: 36px;
     font-weight: 600;
     color: #1F2937;
+    font-weight: 600;
 }
 
 .article__second-text {
@@ -134,4 +135,47 @@ body {
     height: 160px;
     border-radius: 10px;
     border: none;
+}
+
+/***************** Main Text *******************/
+
+.text__main-container {
+    background-color: #E5E7EB;
+    padding: 0 210px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.text__main-one {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 138px;
+}
+.text__main-two {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 104px;
+}
+
+/************* Footer *************/
+
+.footer__main {
+    padding: 0 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.footer__main-container-two {
+    width: 130px;
+    height: 38px;
+    border: 2px solid #E5E7EB;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
